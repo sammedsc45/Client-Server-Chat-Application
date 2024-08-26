@@ -68,6 +68,26 @@ Once connected, clients can use the following commands:
 - `/help`: Show available commands
 - `/quit`: Disconnect from the server
 
+##Example Session:
+#Server Output
+```
+Server started. Listening on port 5000...
+Client_A has connected.
+Client_B has connected.
+Client_C has connected.
+```
+
+#Client Interaction
+```
+Enter server IP address: 127.0.0.1
+Enter server port number: 5000
+Connected to server. Please enter a nickname: Client_A
+> Welcome, Client_A! Type '/help' for a list of commands.
+> /broadcast Hello Everyone!
+Broadcast message sent: [Client_A]: Hello Everyone!
+```
+  
+
 ## 🤝 Contributing
 
 We welcome contributions! Please follow these steps:
@@ -78,9 +98,9 @@ We welcome contributions! Please follow these steps:
 4. Push to the branch: `git push origin feature-branch-name`
 5. Submit a pull request
 
-## 📜 License
 
-This project is licensed under the MIT License - see the [MIT-Licence](LICENSE) file for details.
+## License
+This project is licensed under the [MIT](https://mit-license.org) License
 
 
 ## 📞 Contact
